@@ -9,7 +9,6 @@ def analyze_experiment_results():
 
     for experiment in experiments:
         print(f"Experiment: {experiment[0]}, Status: {experiment[1]}")
-        # Add any analysis logic here, such as comparing expected outcomes vs. actual outcomes
 
     conn.close()
 
